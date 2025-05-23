@@ -22,17 +22,45 @@
     console.log(a,b);
 }
 
-{
-    let a = 15 % 4;
-    let b = Math.floor(14 % 5);
-    console.log(a,b);
+// {
+//     let a = 15 % 4;
+//     let b = Math.floor(14 % 5);
+//     console.log(a,b);
 
-    let number,d1,d2,d3,d4;
-    number = parseInt(prompt("Введите 4-значное число"))
-    d1 = number % 10;
-    d2 = Math.floor(number/10) % 10;
-    d3 = Math.floor(number/100) % 10;
-    d4 = Math.floor(number/1000) % 10;
-    console.log(d1,d2,d3,d4);
-    
+//     let number,d1,d2,d3,d4;
+//     number = parseInt(prompt("Введите 4-значное число"))
+//     d1 = number % 10;
+//     d2 = Math.floor(number/10) % 10;
+//     d3 = Math.floor(number/100) % 10;
+//     d4 = Math.floor(number/1000) % 10;
+//     console.log(d1,d2,d3,d4);
+
+// }
+
+// {
+//     //найти максимум из двух чисел
+//     let x, y, max;
+//     x = parseFloat(prompt("Введите первое число"));
+//     y = parseFloat(prompt("Введите второе число"));
+//     if (x > y){
+//         max = x;
+//     }
+//     else {
+//         max = y;
+//     }
+//     alert("max = " + max);
+
+// }
+
+{
+    //найти максимум из двух чисел 2 способ
+    let x, y, max;
+    x = parseFloat(prompt("Введите первое число"));
+    y = parseFloat(prompt("Введите второе число"));
+    max = x;
+    if (y > max){
+        max = y;
+    }
+    alert("max = " + max);
 }
+
