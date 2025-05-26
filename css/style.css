@@ -1,0 +1,27 @@
+body{
+    background: rgb(106, 177, 106);
+}
+
+.red {
+    color: red;
+}
+
+.border {
+    border: 2px solid black;
+    background-color: darkcyan;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    border-radius:50%;
+    transition: transform 1s linear;
+}
+.move {
+    transform: translateX(600px);
+}
